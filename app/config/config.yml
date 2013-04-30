@@ -1,6 +1,7 @@
 imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
+    - { resource: "@ElsassSeeraiwerESBarBundle/Resources/config/toolbar.xml" }
 
 framework:
     #esi:             ~
@@ -68,3 +69,8 @@ fos_user:
     db_driver: orm
     firewall_name: main
     user_class: ElsassSeeraiwer\ESDemoBundle\Entity\User
+
+elsass_seeraiwer_es_bar:
+    toolbar: true
+#    templates:
+#        - { name: "textExemple", controller: "TestExempleBundle:Default:render", parameters: {"test": 42} }

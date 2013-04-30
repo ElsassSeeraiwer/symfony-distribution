@@ -22,6 +22,7 @@ class AppKernel extends Kernel
             new ElsassSeeraiwer\ESDemoBundle\ElsassSeeraiwerESDemoBundle(),
             new FOS\UserBundle\FOSUserBundle(),
             new ElsassSeeraiwer\ESUserBundle\ElsassSeeraiwerESUserBundle(),
+            new ElsassSeeraiwer\ESBarBundle\ElsassSeeraiwerESBarBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

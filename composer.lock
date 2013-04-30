@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c34d90947a143d2fef2b3ad32e59479f",
+    "hash": "64833b8146a4f91715fda95853f9ea6a",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -595,6 +595,43 @@
                 "orm"
             ],
             "time": "2013-03-24 20:43:58"
+        },
+        {
+            "name": "elsass-seeraiwer/bar-bundle",
+            "version": "dev-master",
+            "target-dir": "ElsassSeeraiwer/ESBarBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElsassSeeraiwer/ESBarBundle.git",
+                "reference": "85550d807446e4c2b003574432cd085e866ef68c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElsassSeeraiwer/ESBarBundle/zipball/85550d807446e4c2b003574432cd085e866ef68c",
+                "reference": "85550d807446e4c2b003574432cd085e866ef68c",
+                "shasum": ""
+            },
+            "require": {
+                "friendsofsymfony/user-bundle": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ElsassSeeraiwer\\ESBarBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eyermann Kévin",
+                    "email": "kevin.eyermann@ign.fr"
+                }
+            ],
+            "description": "Symfony ElsassSeeraiwer/ESBarBundle",
+            "time": "2013-04-30 14:04:33"
         },
         {
             "name": "elsass-seeraiwer/user-bundle",
@@ -1848,7 +1885,8 @@
     ],
     "minimum-stability": "alpha",
     "stability-flags": {
-        "elsass-seeraiwer/user-bundle": 20
+        "elsass-seeraiwer/user-bundle": 20,
+        "elsass-seeraiwer/bar-bundle": 20
     },
     "platform": {
         "php": ">=5.3.3"
