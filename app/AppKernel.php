@@ -21,6 +21,7 @@ class AppKernel extends Kernel
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
             new ElsassSeeraiwer\ESDemoBundle\ElsassSeeraiwerESDemoBundle(),
             new FOS\UserBundle\FOSUserBundle(),
+            new ElsassSeeraiwer\ESUserBundle\ElsassSeeraiwerESUserBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

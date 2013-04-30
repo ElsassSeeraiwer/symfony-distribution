@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "b762e6509ff598b52c2c47de318cf228",
+    "hash": "c34d90947a143d2fef2b3ad32e59479f",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -595,6 +595,43 @@
                 "orm"
             ],
             "time": "2013-03-24 20:43:58"
+        },
+        {
+            "name": "elsass-seeraiwer/user-bundle",
+            "version": "dev-master",
+            "target-dir": "ElsassSeeraiwer/ESUserBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElsassSeeraiwer/ESUserBundle.git",
+                "reference": "e939300703bad5c9ceb84c844c978849970543b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElsassSeeraiwer/ESUserBundle/zipball/e939300703bad5c9ceb84c844c978849970543b0",
+                "reference": "e939300703bad5c9ceb84c844c978849970543b0",
+                "shasum": ""
+            },
+            "require": {
+                "friendsofsymfony/user-bundle": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ElsassSeeraiwer\\ESUserBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eyermann Kévin",
+                    "email": "kevin.eyermann@ign.fr"
+                }
+            ],
+            "description": "Symfony ElsassSeeraiwer/ESUserBundle",
+            "time": "2013-04-30 13:42:05"
         },
         {
             "name": "friendsofsymfony/user-bundle",
@@ -1810,9 +1847,9 @@
 
     ],
     "minimum-stability": "alpha",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "elsass-seeraiwer/user-bundle": 20
+    },
     "platform": {
         "php": ">=5.3.3"
     },
