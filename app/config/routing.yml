@@ -16,14 +16,14 @@ _welcome:
 
 # ESBarBundle
 
-elsass_seeraiwer_es_bar:
-    resource: "@ElsassSeeraiwerESBarBundle/Controller/"
-    type:     annotation
-    prefix:   /{_locale}
-    defaults:
-        _locale: en
-    requirements:
-        _locale: en|fr
+#elsass_seeraiwer_es_bar:
+#    resource: "@ElsassSeeraiwerESBarBundle/Controller/"
+#    type:     annotation
+#    prefix:   /{_locale}
+#    defaults:
+#        _locale: en
+#    requirements:
+#        _locale: en|fr
 
 # FOSUserBundle
 
