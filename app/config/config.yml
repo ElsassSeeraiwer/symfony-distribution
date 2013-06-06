@@ -72,5 +72,7 @@ fos_user:
 
 elsass_seeraiwer_es_bar:
     toolbar: true
+    locale_tool: true
+    registration: true
 #    templates:
 #        - { name: "textExemple", controller: "TestExempleBundle:Default:render", parameters: {"test": 42} }
