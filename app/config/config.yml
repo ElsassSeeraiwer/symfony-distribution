@@ -77,3 +77,23 @@ elsass_seeraiwer_es_bar:
     registration: true
 #    templates:
 #        - { name: "textExemple", controller: "TestExempleBundle:Default:render", parameters: {"test": 42} }
+
+jms_translation:
+    locales: [en, fr]
+    tinymce_mod: ['messages']
+    configs:
+        app:
+            dirs: [%kernel.root_dir%/../src, '@ElsassSeeraiwerESBarBundle', '@ElsassSeeraiwerESUserBundle', '@FOSUserBundle']
+            output_dir: %kernel.root_dir%/Resources/translations
+            ignored_domains: [routes]
+            excluded_names: [*TestCase.php, *Test.php, *.php]
+            excluded_dirs: [cache, data, logs]
+            default_output_format: xliff
+            keep: true
+            # extractors: [alias_of_the_extractor]
+
+services:
+    twig.text_extension:
+        class: Twig_Extensions_Extension_Text
+        tags:
+            - name: twig.extension
