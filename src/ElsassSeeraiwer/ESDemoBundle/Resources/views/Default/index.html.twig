@@ -3,5 +3,9 @@
 {% block title %}Elsass Seeraiwer Distribution Demo{% endblock %}
 
 {% block body %}
-	<h1>Hello Seeraiwer !! {{ 'Symfony2 is great'|trans|raw }}</h1>
+	<h1>Hello Seeraiwer !!</h1>
+	{{ 'Symfony2 is great'|trans|desc('Petit test DESC')|meaning('Petit test MEANING')|raw }}
+	{{ 'test'|trans|meaning('Petit test 1')|raw }}
+	{{ '66'|trans|meaning('Petit test 1')|raw }}
+	{{ 'tutu'|trans|raw }}
 {% endblock %}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
+  <file date="2013-06-20T15:37:54Z" source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="86f7e437faa5a7fce15d1ddcb9eaeaea377667b8" resname="a">
+        <source>a</source>
+        <target state="new">a</target>
+      </trans-unit>
+      <trans-unit id="e9d71f5ee7c92d6dc9e92ffdad17b8bd49418f98" resname="b">
+        <source>b</source>
+        <target state="new">b</target>
+      </trans-unit>
+      <trans-unit id="ffa6706ff2127a749973072756f83c532e43ed02" resname="bla">
+        <source>bla</source>
+        <target state="new">bla</target>
+      </trans-unit>
+      <trans-unit id="bb21158c733229347bd4e681891e213d94c685be" resname="blabla">
+        <source>blabla</source>
+        <target state="new">blabla</target>
+      </trans-unit>
+      <trans-unit id="84a516841ba77a5b4648de2cd0dfcb30ea46dbb4" resname="c">
+        <source>c</source>
+        <target state="new">c</target>
+      </trans-unit>
+      <trans-unit id="2997a8f8f64097f2644b85ff9135b1e8782a1ec8" resname="exemple">
+        <source>exemple</source>
+        <target><![CDATA[<p>exemple</p>]]></target>
+      </trans-unit>
+      <trans-unit id="49b12661398067d1dc79ad07fcf0deec33eb80e6" resname="test.article">
+        <source>test.article</source>
+        <target state="new">test.article</target>
+      </trans-unit>
+      <trans-unit id="306b02b09064a0a15474976b75f088a1b587d442" resname="test.article2">
+        <source>test.article2</source>
+        <target state="new">test.article2</target>
+      </trans-unit>
+      <trans-unit id="bdca707415cd381f4338bd4fb7684d8d8be2bd58" resname="test.date">
+        <source>test.date</source>
+        <target state="new">test.date</target>
+      </trans-unit>
+      <trans-unit id="749a80b4cbf0a8feeb1d55e1a3fe8f846363fc8f" resname="test.test.test.test">
+        <source>test.test.test.test</source>
+        <target state="new">test.test.test.test</target>
+      </trans-unit>
+      <trans-unit id="109f4b3c50d7b0df729d299bc6f8e9ef9066971f" resname="test2">
+        <source>test2</source>
+        <target state="new">test2</target>
+      </trans-unit>
+      <trans-unit id="3ebfa301dc59196f18593c45e519287a23297589" resname="test3">
+        <source>test3</source>
+        <target state="new">test3</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

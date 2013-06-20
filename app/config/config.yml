@@ -75,15 +75,15 @@ elsass_seeraiwer_es_bar:
     toolbar: true
     locale_tool: true
     registration: true
-#    templates:
-#        - { name: "textExemple", controller: "TestExempleBundle:Default:render", parameters: {"test": 42} }
+    templates:
+        - { name: "translation", template: "JMSTranslationBundle:ESBar:translationBar.html.twig" }
 
 jms_translation:
     locales: [en, fr]
-    tinymce_mod: ['messages']
+    tinymce_mod: ['articles']
     configs:
         app:
-            dirs: [%kernel.root_dir%/../src, '@ElsassSeeraiwerESBarBundle', '@ElsassSeeraiwerESUserBundle', '@FOSUserBundle']
+            dirs: ['@ElsassSeeraiwerESDemoBundle']
             output_dir: %kernel.root_dir%/Resources/translations
             ignored_domains: [routes]
             excluded_names: [*TestCase.php, *Test.php, *.php]

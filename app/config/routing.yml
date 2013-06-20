@@ -1,3 +1,12 @@
+elsass_seeraiwer_es_article:
+    resource: "@ElsassSeeraiwerESArticleBundle/Controller/"
+    type:     annotation
+    prefix:   /{_locale}
+    defaults:
+        _locale: en
+    requirements:
+        _locale: en|fr
+
 elsass_seeraiwer_es_demo:
     resource: "@ElsassSeeraiwerESDemoBundle/Controller/"
     type:     annotation
