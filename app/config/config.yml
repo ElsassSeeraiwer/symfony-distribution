@@ -78,6 +78,11 @@ elsass_seeraiwer_es_bar:
     templates:
         - { name: "translation", template: "JMSTranslationBundle:ESBar:translationBar.html.twig" }
 
+elsass_seeraiwer_es_article:
+    content_css: 
+        - 'http://localhost/WebITRF/web/bundles/rsitemplate/css/rsi.css'
+        - 'http://localhost/WebITRF/web/bundles/itrfwebsite/css/itrf.css'
+
 jms_translation:
     locales: [en, fr]
     tinymce_mod: ['articles']

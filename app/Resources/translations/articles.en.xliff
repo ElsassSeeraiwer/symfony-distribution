@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
-  <file date="2013-06-21T09:57:28Z" source-language="en" target-language="en" datatype="plaintext" original="not.available">
+  <file date="2013-06-21T14:12:06Z" source-language="en" target-language="en" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
@@ -16,7 +16,22 @@
       </trans-unit>
       <trans-unit id="75f251d7f84b434514d5c3f8b69ca477689520bc" resname="premier-test">
         <source>premier-test</source>
-        <target state="new">premier-test</target>
+        <target><![CDATA[<h2 id="geninfo">General informations</h2>
+<p class="article">This site gives information about a subset of products of the&nbsp;<a href="http://igs.org/" target="_blank">International&nbsp;GNSS&nbsp;Service</a>&nbsp;(IGS): final&nbsp;<a href="http://webigs.ign.fr/tfcc/en/stations/">station&nbsp;positions</a>,<a href="http://webigs.ign.fr/tfcc/en/erp/">Earth&nbsp;Rotation&nbsp;Parameters</a>&nbsp;(ERPs) and coordinates of the&nbsp;<a href="http://webigs.ign.fr/tfcc/en/geocenter/">apparent&nbsp;geocenter</a>. This introductory page provides general background information.</p>
+<p class="article">The IGS collects data from a&nbsp;<a href="http://webigs.ign.fr/gdc/en/">global&nbsp;network</a>&nbsp;of more than 400 permanent GNSS stations. Ten&nbsp;<a href="http://igs.org/organization/centers.html#ac" target="_blank">Analysis&nbsp;Centers</a>(ACs) routinely generate various products from these data. The&nbsp;<a href="http://acc.igs.org/" target="_blank">Analysis&nbsp;Center&nbsp;Coordinator</a>&nbsp;(ACC) has overall responsibility for generating the main official&nbsp;<a href="http://igs.org/components/prods.html" target="_blank">IGS&nbsp;combined&nbsp;products</a>&nbsp;from the AC products.</p>
+<h4>The combination of the IGS final products, performed on a weekly basis, involves two main steps :</h4>
+<ul>
+<li>Products related to the terrestrial frame, including ERPs, are obtained by a combination of&nbsp;<a href="http://www.iers.org/IERS/EN/Organization/AnalysisCoordinator/SinexFormat/sinex__cont.html" target="_blank">SINEX</a>&nbsp;files submitted by the ACs. This work is the main task of the IGS&nbsp;<a href="http://igs.org/projects/reference_frame/index.html" target="_blank">Reference&nbsp;Frame&nbsp;Working&nbsp;Group</a>&nbsp;(RFWG). It has been performed at<a href="http://www.nrcan.gc.ca/com/index-eng.php" target="_blank">Natural&nbsp;Resources&nbsp;Canada</a>&nbsp;until January 2010 and was then taken on by the&nbsp;<a href="http://www.ign.fr/" target="_blank">Institut&nbsp;Géographique&nbsp;National</a>.This&nbsp;site&nbsp;is&nbsp;dedicated&nbsp;to&nbsp;that&nbsp;particular&nbsp;set&nbsp;of&nbsp;products.</li>
+<li>Satellite orbits and clocks are then combined by the&nbsp;<a href="http://acc.igs.org/" target="_blank">ACC</a>&nbsp;(NOAA’s&nbsp;<a href="http://www.ngs.noaa.gov/" target="_blank">National&nbsp;Geodetic&nbsp;Survey</a>&nbsp;since 2008).</li>
+</ul>
+<h3>Weekly solutions</h3>
+<p class="article">Each week, nine IGS ACs submit SINEX solutions including station positions, daily ERPs and the full covariance matrix. These solutions are combined in a standard least-squares adjustment to form the IGS weekly combined solutions.</p>
+<h4>Those include :</h4>
+<ul>
+<li>weekly combined&nbsp;<a href="http://webigs.ign.fr/tfcc/en/stations/">station</a>&nbsp;positions,</li>
+<li>daily combined&nbsp;<a href="http://webigs.ign.fr/tfcc/en/erp/">ERPs</a>,</li>
+<li>weekly coordinates of the&nbsp;<a href="http://webigs.ign.fr/tfcc/en/geocenter/">apparent&nbsp;geocenter</a>.</li>
+</ul>]]></target>
       </trans-unit>
       <trans-unit id="a94a8fe5ccb19ba61c4c0873d391e987982fbbd3" resname="test">
         <source>test</source>
