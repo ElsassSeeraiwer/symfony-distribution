@@ -24,6 +24,7 @@ class AppKernel extends Kernel
             new ElsassSeeraiwer\ESUserBundle\ElsassSeeraiwerESUserBundle(),
             new ElsassSeeraiwer\ESBarBundle\ElsassSeeraiwerESBarBundle(),
             new JMS\TranslationBundle\JMSTranslationBundle(),
+            new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new ElsassSeeraiwer\ESArticleBundle\ElsassSeeraiwerESArticleBundle(),
         );
 

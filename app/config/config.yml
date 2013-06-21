@@ -92,6 +92,12 @@ jms_translation:
             keep: true
             # extractors: [alias_of_the_extractor]
 
+stof_doctrine_extensions:
+    default_locale: en
+    orm:
+        default:
+            sluggable: true
+
 services:
     twig.text_extension:
         class: Twig_Extensions_Extension_Text
