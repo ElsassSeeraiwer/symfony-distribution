@@ -4,11 +4,4 @@
 
 {% block body %}
 	<h1>Hello Seeraiwer !!</h1>
-	
-	<h2>Exemple ESArticleBundle avec TinyMCE inline editor :</h2>
-
-	{# Ici on est pour le moment obligé de passer la locale, voir : https://github.com/symfony/symfony/issues/6932 #}
-	<div style="width:600px;margin:auto;border: 1px solid grey;padding: 15px;">
-		{{ render(controller('ElsassSeeraiwerESArticleBundle:Main:embeddedByKey', { 'slug': 'premier-test-2', '_locale': app.request.locale })) }} 
-	</div>
 {% endblock %}

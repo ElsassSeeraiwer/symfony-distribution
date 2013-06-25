@@ -76,16 +76,19 @@ elsass_seeraiwer_es_bar:
     locale_tool: true
     registration: true
     templates:
+        - { name: "home", next:false, template: "ElsassSeeraiwerESDemoBundle:ESBar:homeBar.html.twig" }
         - { name: "translation", template: "JMSTranslationBundle:ESBar:translationBar.html.twig" }
+        - { name: "article", template: "ElsassSeeraiwerESArticleBundle:ESBar:articleBar.html.twig", parameters:{'authorized_role': 'ROLE_SUPER_ADMIN'} }
 
 elsass_seeraiwer_es_article:
+    locales: ['en', 'fr']
     content_css: 
-        - 'http://localhost/WebITRF/web/bundles/rsitemplate/css/rsi.css'
-        - 'http://localhost/WebITRF/web/bundles/itrfwebsite/css/itrf.css'
+        # - 'http://localhost/WebITRF/web/bundles/rsitemplate/css/rsi.css'
+        # - 'http://localhost/WebITRF/web/bundles/itrfwebsite/css/itrf.css'
 
 jms_translation:
     locales: [en, fr]
-    tinymce_mod: ['articles']
+    tinymce_mod: []
     configs:
         app:
             dirs: ['@ElsassSeeraiwerESDemoBundle']

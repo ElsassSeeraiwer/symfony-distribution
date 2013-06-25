@@ -284,12 +284,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ElsassSeeraiwer/ESArticleBundle.git",
-                "reference": "94c37a277a5b4e7e4d6faea4519aadab1f43a2c3"
+                "reference": "d09967b10b41d8da550c5577e4f60c0cd96d2861"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ElsassSeeraiwer/ESArticleBundle/zipball/94c37a277a5b4e7e4d6faea4519aadab1f43a2c3",
-                "reference": "94c37a277a5b4e7e4d6faea4519aadab1f43a2c3",
+                "url": "https://api.github.com/repos/ElsassSeeraiwer/ESArticleBundle/zipball/d09967b10b41d8da550c5577e4f60c0cd96d2861",
+                "reference": "d09967b10b41d8da550c5577e4f60c0cd96d2861",
                 "shasum": ""
             },
             "require": {
@@ -313,7 +313,7 @@
                 }
             ],
             "description": "Symfony ElsassSeeraiwer/ESArticleBundle",
-            "time": "2013-06-21 08:09:18"
+            "time": "2013-06-24 06:38:33"
         },
         {
             "name": "elsass-seeraiwer/bar-bundle",
@@ -1428,12 +1428,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stof/StofDoctrineExtensionsBundle.git",
-                "reference": "7618302c798edbe5f13cd7d7f6aab4b21110a135"
+                "reference": "v1.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stof/StofDoctrineExtensionsBundle/zipball/7618302c798edbe5f13cd7d7f6aab4b21110a135",
-                "reference": "7618302c798edbe5f13cd7d7f6aab4b21110a135",
+                "url": "https://api.github.com/repos/stof/StofDoctrineExtensionsBundle/zipball/v1.1.0",
+                "reference": "v1.1.0",
                 "shasum": ""
             },
             "require": {
@@ -1481,7 +1481,7 @@
                 "translatable",
                 "tree"
             ],
-            "time": "2013-06-20 00:09:53"
+            "time": "2013-06-23 16:53:41"
         },
         {
             "name": "swiftmailer/swiftmailer",
