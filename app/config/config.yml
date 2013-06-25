@@ -77,7 +77,7 @@ elsass_seeraiwer_es_bar:
     registration: true
     templates:
         - { name: "home", next:false, template: "ElsassSeeraiwerESDemoBundle:ESBar:homeBar.html.twig" }
-        - { name: "translation", template: "JMSTranslationBundle:ESBar:translationBar.html.twig" }
+        - { name: "translation", template: "JMSTranslationBundle:ESBar:translationBar.html.twig", parameters:{'authorized_role': 'ROLE_SUPER_ADMIN'} }
         - { name: "article", template: "ElsassSeeraiwerESArticleBundle:ESBar:articleBar.html.twig", parameters:{'authorized_role': 'ROLE_SUPER_ADMIN'} }
 
 elsass_seeraiwer_es_article:
