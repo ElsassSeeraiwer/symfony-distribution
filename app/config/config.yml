@@ -82,9 +82,27 @@ elsass_seeraiwer_es_bar:
 
 elsass_seeraiwer_es_article:
     locales: ['en', 'fr']
-    content_css: 
-        # - 'http://localhost/WebITRF/web/bundles/rsitemplate/css/rsi.css'
-        # - 'http://localhost/WebITRF/web/bundles/itrfwebsite/css/itrf.css'
+    tinymce: 
+        content_css: 
+            # - 'http://localhost/WebITRF/web/bundles/rsitemplate/css/rsi.css'
+            # - 'http://localhost/WebITRF/web/bundles/itrfwebsite/css/itrf.css'
+        plugin: "hr link table save print anchor searchreplace fullscreen charmap visualblocks image media nonbreaking autolink advlist contextmenu"
+        toolbar1: "save | undo redo | removeformat | styleselect | fullscreen print | cut copy paste | searchreplace | hr anchor link table charmap visualblocks nonbreaking"
+        toolbar2: "bold italic underline strikethrough | alignleft aligncenter alignright alignjustify | bullist numlist | outdent indent blockquote | subscript superscript"
+        contextmenu: "bold italic underline strikethrough | link image inserttable | cell row column deletetable"
+        tools: "inserttable"
+        nonbreaking_force_tab: true
+        save_enablewhendirty: true
+        # Le symbole "|" sur la première ligne est très important !! Il permet de predre la suite pour une chaine et non du contenu YML et de préserver les saut de ligne.
+        style_formats: |
+            [
+                {title: 'Titre 1', block: 'h2'},
+                {title: 'Titre 2', block: 'h3'},
+                {title: 'Titre 3', block: 'h4'},
+                {title: 'Important', inline: 'span', styles: {color: '#ff0000'}},
+                {title: 'Paragraphe important', block: 'p', classes: 'important'},
+                {title: 'Paragraphe normal', block: 'p'}
+            ]
 
 jms_translation:
     locales: [en, fr]
